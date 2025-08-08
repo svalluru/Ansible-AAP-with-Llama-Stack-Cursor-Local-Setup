@@ -189,3 +189,8 @@ Cursor can talk directly to MCP servers via a JSON profile.
    > **“get me list of projects”**
 
 …Cursor should call your MCP server and return the tool output.
+
+<img width="747" height="804" alt="Screenshot 2025-08-08 at 7 28 56 PM" src="https://github.com/user-attachments/assets/a07129da-ea3e-4fe9-a8dc-799106d62d33" />
+
+
+
