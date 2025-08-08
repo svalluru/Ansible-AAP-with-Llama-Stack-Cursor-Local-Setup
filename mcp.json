@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ansible": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/Users/svalluru/githubprojs/AAP-Enterprise-MCP-Server",
+        "run",
+        "ansible.py"
+      ],
+      "env": {
+        "AAP_TOKEN": "amc120",
+        "AAP_URL": "https://aap-aap..opentlc.com/api/controller/v2"
+      }
+    }
+  }
+}

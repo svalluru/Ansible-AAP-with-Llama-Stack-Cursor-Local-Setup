@@ -1,0 +1,31 @@
+AAP_BASE_URL=https://aap-aap.sandbox854.opentlc.com
+AUTH_TYPE=token
+AAP_TOKEN=abc
+AAP_USERNAME=admin
+AAP_PASSWORD=admin123
+VERIFY_SSL=false
+
+REMOTE_AAP_MCP_URL=http://localhost:8000/mcp
+REMOTE_BASE_URL=http://localhost:8321
+
+
+# optional environment variables for all demos
+TEMPERATURE="0.0"
+TOP_P="0.95"
+MAX_TOKENS="512"
+STREAM="False"
+
+# for the RAG demos only - mandatory
+VDB_PROVIDER="milvus"
+VDB_EMBEDDING="all-MiniLM-L6-v2"
+
+# for the RAG demos only - optional
+VDB_EMBEDDING_DIMENSION="384"
+VECTOR_DB_CHUNK_SIZE="512"
+
+# for the agentic/tool demos
+TAVILY_SEARCH_API_KEY= ""
+USE_PROMPT_CHAINING= "True"
+
+# for the eval notebook only - mandatory
+LLM_AS_JUDGE_MODEL_ID= ""
